@@ -8,7 +8,7 @@
   border: 5px double white;
   margin: 30px auto;
   }
-  #intro {
+  #intro, #img-caption {
     font-size: 15px;
     font-family: Verdana, sans-serif;
   }
@@ -20,6 +20,10 @@
   body {
   background-color: grey; 
   color: white;
+  }
+  
+  #img-caption {
+  
   }
   
   
