@@ -1,0 +1,16 @@
+#image {
+    max-width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  ul, h2, section p, #intro, #page-title, figcaption {
+    text-align: center;
+  }
+  
+  body {
+  background-color: grey; 
+  }
+  
