@@ -1,4 +1,4 @@
-#image {
+#image, #image2 {
     max-width: 100%;
     display: block;
     align-items: center;
@@ -7,13 +7,15 @@
   border-radius: 20px;
   border: 5px double white;
   margin: 30px auto;
+  box-shadow: 5px 5px 5px 2px rgba(0,0,255,0.2);
   }
+  
   #intro, #img-caption {
-    font-size: 15px;
+    font-size: 16px;
     font-family: Verdana, sans-serif;
   }
   
-  ul, h2, section p, #intro, #page-title, figcaption {
+  h2, section p, #intro, #page-title, figcaption {
     text-align: center;
   }
   
@@ -21,9 +23,15 @@
   background-color: grey; 
   color: white;
   }
-  
-  #img-caption {
-  
+  h1, h2 {
+    text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;  
   }
-  
-  
+  section p {
+    margin-top: 50px;
+    padding: 10px;
+    font-family: Verdana, sans-serif;
+  }
